@@ -1,17 +1,37 @@
 //    import:
 
 //    name and sort of class:
-class  GrassPokemon{
-//    name and type of variables:
-    private String killingWithKindness;
-    private String emotionalBlackmail;
-//    constructor(s):
+public class GrassPokemon extends JapanesePokemon {
+    //    name and type of variables:
+    public String pokemonName;
+    private String attack;
+    private String defence;
+
+    //    constructor(s):
+    public GrassPokemon(String pokemonID, String pokemonName, String pokemonType, String attack, String defence, int healthPoints, int experiencePoints) {
+        super(pokemonID, healthPoints, experiencePoints, pokemonType);
+        this.pokemonName = pokemonName;
+        this.killingWithKindness = killingWithKindness;
+        this.mindfulness = mindfulness;
 
 //    getters:
-
+        public int getAttack() {
+            return attack;
+        }
+        public int getDefence() {
+            return defence;
+        }
 //    setters:
+        public void setAttack(String attack) {
+            this.attack = attack;
+        }
+        public void setDefence(String defence) {
+            this.defence = defence;
+        }
+
 
 //    method(s):
 
 //    stay away from this } it closes the class
 }
+

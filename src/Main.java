@@ -8,15 +8,12 @@ public class Main {
 
 
 // instantiate objects of class JapanesePokemon:
-JapanesePokemon pokemon1 = new JapanesePokemon("Nagasaki", "Fire", "Radio-active breath", "Helmet", 23, 1200);
-JapanesePokemon pokemon2 = new JapanesePokemon("Harikiri", "Electric", "Frontal attack with speed", "Run", 622, 841);
-JapanesePokemon pokemon3 = new JapanesePokemon("Fukushima", "Water", "Spraying water", "Sink-holes" 54, 217);
-JapanesePokemon pokemon4 = new JapanesePokemon("ZinZanZen", "Grass", "Throwing stones from above", "Abseiling", 302, 934)
+JapanesePokemon pokemon056 = new JapanesePokemon("056", 123, 1200, "FirePokemon");
+JapanesePokemon pokemon411 = new JapanesePokemon("411", 622, 456, "ElectricPokemon");
+JapanesePokemon pokemon178 = new JapanesePokemon("178", 254, 841, "WaterPokemon");
+JapanesePokemon pokemon772 = new JapanesePokemon("772", 302, 110, "GrassPokemon");
 
-// instantiate more objects:
-
-
- // input user/scanner:
+// call for execution of methods in underlying classes
 
 // stay away from these 2 } they close the class and main method
     }

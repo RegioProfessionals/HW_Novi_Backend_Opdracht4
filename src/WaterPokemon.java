@@ -1,32 +1,32 @@
 //    import:
 
 //    name and sort of class:
-public class  WaterPokemon{
+public class WaterPokemon extends JapanesePokemon {
 //    name and type of variables:
-    public  String pokemonName;
-    public String pokemonType;
-    private String waterThrower;
-    private String speedBoat;
+    public String pokemonName;
+    private String attack;
+    private String defence;
 
 //    constructor(s):
-public JapanesePokemon(String pokemonName, String pokemonType, String bestAttack, String bestDefence, int healthPoints, int experiencePoints) {
-super(pokemonName, pokemonType, healthPoints, experiencePoints);
-this.waterThrower = waterThrower;
-this.speedBoat = speedBoat;
+public WaterPokemon(String pokemonID, String pokemonName, String pokemonType, String attack, String defence, int healthPoints, int experiencePoints) {
+super(pokemonID, healthPoints, experiencePoints, pokemonType);
+this.pokemonName = pokemonName;
+this.attack = attack;
+this.defence = defence;
 
 //    getters:
-    public int getWaterThrower() {
-        return waterThrower;
+    public int getAttack() {
+        return attack;
     }
-    public int getSpeedBoat() {
-        return speedBoat;
+    public int getDefence() {
+        return defence;
     }
 //    setters:
-    public void setWaterThrower(String waterThrower) {
-        this.waterThrower = waterThrower;
+    public void setAttack(String attack) {
+        this.attack = attack;
     }
-    public void setSpeedBoat(String speedBoat) {
-        this.speedBoat = speedBoat;
+    public void setDefence(String defence) {
+        this.defence = defence;
     }
 
 
