@@ -2,12 +2,12 @@
 
 //    name and sort of class:
 public class FirePokemon extends JapanesePokemon {
-    //    name and type of variables:
+//    name and type of variables:
     public String pokemonName;
     private String attack;
     private String defence;
 
-    //    constructor(s):
+//    constructor(s):
     public FirePokemon(String pokemonID, String pokemonName, String pokemonType, String attack, String defence, int healthPoints, int experiencePoints) {
         super(pokemonID, healthPoints, experiencePoints, pokemonType);
         this.pokemonName = pokemonName;

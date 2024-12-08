@@ -8,11 +8,11 @@ public class WaterPokemon extends JapanesePokemon {
     private String defence;
 
 //    constructor(s):
-public WaterPokemon(String pokemonID, String pokemonName, String pokemonType, String attack, String defence, int healthPoints, int experiencePoints) {
-super(pokemonID, healthPoints, experiencePoints, pokemonType);
-this.pokemonName = pokemonName;
-this.attack = attack;
-this.defence = defence;
+    public WaterPokemon(String pokemonID, String pokemonName, String pokemonType, String attack, String defence, int healthPoints, int experiencePoints) {
+        super(pokemonID, healthPoints, experiencePoints, pokemonType);
+        this.pokemonName = pokemonName;
+        this.attack = attack;
+        this.defence = defence;
 
 //    getters:
     public int getAttack() {

@@ -11,8 +11,8 @@ public class ElectricPokemon extends JapanesePokemon {
     public ElectricPokemon(String pokemonID, String pokemonName, String pokemonType, String attack, String defence, int healthPoints, int experiencePoints) {
         super(pokemonID, healthPoints, experiencePoints, pokemonType);
         this.pokemonName = pokemonName;
-        this.electricBeam = electricBeam;
-        this.powerOutage = powerOutage;
+        this.attack = attack;
+        this.defence = defence;
 
 //    getters:
         public int getAttack() {

@@ -11,8 +11,8 @@ public class GrassPokemon extends JapanesePokemon {
     public GrassPokemon(String pokemonID, String pokemonName, String pokemonType, String attack, String defence, int healthPoints, int experiencePoints) {
         super(pokemonID, healthPoints, experiencePoints, pokemonType);
         this.pokemonName = pokemonName;
-        this.killingWithKindness = killingWithKindness;
-        this.mindfulness = mindfulness;
+        this.attack = attack;
+        this.defence = defence;
 
 //    getters:
         public int getAttack() {
