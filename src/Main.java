@@ -15,13 +15,19 @@ GrassPokemon pokemon772 = new GrassPokemon("772", "ZinZanZen", "GrassPokemon", "
 
 // call for execution of methods in underlying classes
 
+        // abstract method in abstract superclass (JapanesePokemon) override by sub-class-method
         pokemon056.makeSound();
         pokemon178.makeSound();
         pokemon411.makeSound();
         pokemon772.makeSound();
 
+
         pokemon772.chooseAttackOrDefend();
         pokemon178.eat();
+        pokemon056.sleep();
+        pokemon178.eat();
+
+
 
 
 
